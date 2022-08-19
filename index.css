@@ -24,7 +24,7 @@ body {
     background-color: white;
     border-radius: 5px;
     margin-bottom: 48px;
-    background-image: url('img/bg.png');
+    background-image: url('bg.png');
     background-size: cover;
     position: relative;
     
@@ -35,7 +35,7 @@ body {
     height: 84px;
     background-color: #1262a6;
     border-bottom: 1px solid #115490;
-    background-image: url('img/header.png');
+    background-image: url('header.png');
     background-size: cover;
 }
 
@@ -43,7 +43,7 @@ body {
     height: 51px;
     background-color: #1262a6;
     border-bottom: 1px solid #115490;
-    background-image: url('img/bar.png');
+    background-image: url('bar.png');
     background-size: contain;
 }
 
