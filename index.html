@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Mob</title>
+
+  <!-- APP -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=0">
+  <meta name="theme-color" content="#000" />
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="index.css">
+
+  <!-- SCRIPTS -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+  <div id="wrap">
+
+    <div id="head">
+
+    </div>
+
+    <div id="bar">
+      
+    </div>
+
+    <div id="mark">
+      <div id="t2img"><img src="t2.png"></div>
+    </div>
+
+    <div class="t">
+
+      <div id="ticket1">
+          <img src="t1.png">
+          <div id="t2img"></div>
+          <img src="t3.png">
+          <div class="line-no">
+            <input type="text" placeholder="2" id="line-no-input">
+          </div>
+          <img src="t4.png">
+          <div id="val">20.08.2022r. 8:00</div>
+          <div id="code">35212</div>
+      </div>
+
+      <div id="ticket2">
+        <img src="t5.png">
+        <div class="line-no">
+          <input type="text" placeholder="3.00 PLN" id="line-no-input">
+        </div>
+        <img src="t6.png">
+        <div id="cn"></div>
+        <div id="code2">35212</div>
+      </div>
+
+      <div id="ticket3">
+        <img src="t1.png">
+        <div id="qr-wrap">
+          <img src="qr-code.png">
+        </div>
+      </div>
+
+    </div>
+
+    <div id="dots">
+      <div id="d1"></div>
+      <div id="d2"></div>
+      <div id="d3"></div>
+    </div>
+
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" type="text/javascript"></script>
+  <script src="rng.js"></script> 
+  <script src="city.js"></script> 
+  <script src="date.js"></script> 
+  <script src="slide.js"></script> 
+  <script src="swipe.js"></script> 
+
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "TERRA",
+  "short_name": "TERRA",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": ".",
+  "icons": [{
+  "src": "icon-256.png",
+  "sizes": "256x256",
+  "type": "image/png"
+}]
+}

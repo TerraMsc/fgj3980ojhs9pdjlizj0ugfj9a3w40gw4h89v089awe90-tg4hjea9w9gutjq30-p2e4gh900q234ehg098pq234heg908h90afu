@@ -1,0 +1,32 @@
+<html>
+    
+<meta charset="UTF-8">
+
+<head>
+
+    <!-- SCRIPTS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" type="text/javascript"></script>
+
+</head>
+
+<style>
+    #qr-valid, #qr-date, #qr-code, #qr-now {
+        display: inline;
+    }
+</style>
+
+<body style='font-size:3em'>
+    <div class="line">Miasto Gorzów Wlkp. Komunikacja miejska<br/></div>
+    <div class="line">Jedn./przes. 45 min N<br/></div>
+    <div class="line">Cena: <b>3,00 PLN</b><br/></div>
+    <div class="line">Data zakupu: <div id="qr-date">19.08.2022r. 06:53:42</div><br/></div>
+    <div class="line">Data ważności: <b style='color:red;'><div id="qr-valid">19.08.2022r. 07:38</div></b><br/></div>
+    <div class="line">Kod: <div id="qr-code"></div><br/></div>
+    <div class="line">Numer bieżący: <div id="qr-now"></div><br/></div>
+
+    <script src="date2.js"></script> 
+    <script src="ticket.js"></script> 
+
+</body>
+</html>
