@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'font';
+    src: url('sp-light.otf');
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#wrap {
+    height: 736px;
+    max-width: 414px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 48px;
+    background-image: url('bg.png');
+    background-size: cover;
+    position: relative;
+    
+    overflow: hidden;
+}
+
+#head {
+    height: 84px;
+    background-color: #1262a6;
+    border-bottom: 1px solid #115490;
+    background-image: url('header.png');
+    background-size: cover;
+}
+
+#bar {
+    height: 51px;
+    background-color: #1262a6;
+    border-bottom: 1px solid #115490;
+    background-image: url('bar.png');
+    background-size: contain;
+}
+
+.t {
+    margin-top: 40px; 
+    width: 1242px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    position: relative;
+    gap: 23px;
+}
+
+.t img {
+    max-width: 368px;
+}
+
+#ticket1 {
+    width: 368px;
+    height: 446px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    overflow: hidden;
+    background-color: #bf0407;
+    margin-left: 23px;
+}
+
+#ticket2 {
+    width: 368px;
+    height: 514px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    overflow: hidden;
+    background-color: #bf0407;
+}
+
+#ticket3 {
+    width: 368px;
+    height: 446px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    overflow: hidden;
+    background-color: #bf0407;
+}
+
+#qr-wrap {
+    margin-top: 58px;
+    background-color: white;
+    width: 258px;
+    height: 258px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#qr-wrap img {
+    width: 211px;
+    height: 211px;
+    padding: 23.5px;
+}
+
+#dots {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    gap: 13px;
+    position: absolute;
+    bottom: 11px;
+}
+
+#d1, #d2, #d3 {
+    width: 10px;
+    height: 10px;
+    background-color: #adaaad;
+    border-radius: 100px;
+}
+
+#d1 {
+    background-color: #555555;
+}
+
+#t2img {
+    overflow: hidden;
+    width: 79px;
+    min-height: 30px;
+}
+
+#mark {
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 368px;
+    height: 30px;
+    margin-top: 94px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    overflow: hidden;
+    z-index: 2;
+}
+
+#t2img img {
+    overflow: hidden;
+    background-color: white;
+    width: 79px;
+    min-height: 30px;
+}
+
+.line-no {
+    font-family: 'font';
+    color: white;
+    font-size: 26px;
+    padding-left: 26px;
+    height: 20px;
+    line-height: 20px;
+}
+
+#val {
+    font-family: 'font';
+    color: white;
+    font-size: 30px;
+    padding-left: 26px;
+    height: 23px;
+    line-height: 23px;
+}
+
+#code {
+    font-family: 'font';
+    width: 277px;
+    height: 36px;
+    border: 2px solid white;
+    color: white;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    margin-left: 26px;
+    margin: 37px 0 26px 44px;
+}
+
+#code2 {
+    font-family: 'font';
+    width: 277px;
+    height: 36px;
+    border: 2px solid white;
+    color: white;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    margin-left: 26px;
+    margin: 37px 0 26px 44px;
+}
+
+#line-no-input {
+    all: unset;
+}
+
+#line-no-input {
+    background-color: #bf0407;
+    color: white;
+    font-family: 'font';
+    height: 23px;
+    line-height: 20px;
+    font-size: 26px;
+    outline: none;
+    border: none;
+    margin-top: -3px;
+}
+
+#line-no-input::placeholder { 
+    color: white;
+ }
+
+ #cn {
+    font-family: 'font';
+    color: white;
+    font-size: 30px;
+    padding-left: 26px;
+    height: 23px;
+    line-height: 23px;
+    margin-bottom: 115px;
+ }
